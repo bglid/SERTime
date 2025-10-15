@@ -1,0 +1,37 @@
+name: build-desktop
+
+on: [push, pull_request]
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10"]
+
+    # setup python
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5.3.0
+      with:
+        python-version: ${{ matrix.python-version }}
+
+      # installs
+      # setup uv
+    - name: Setup cache
+      run: |
+
+    - name: Install dependencies
+      run: |
+
+    - name: Run style checks
+      run: |
+
+    - name: Run tests
+      run: |
+
+    - name: Run safety checks
+      run: |
+
+
