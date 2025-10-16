@@ -1,0 +1,9 @@
+[project]
+name = "SERTime"
+version = "0.1.0"
+description = "Evaluation and Model changes"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ruff>=0.14.0",
+]

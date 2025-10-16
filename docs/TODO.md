@@ -19,8 +19,11 @@
 
 ### Project Setup
 
- - [ ] ...
- - [ ] ...
+ - [ ] Get UV setup for python and workflow scripts
+ - [ ] Setup pre-commit hooks
+ - [ ] Search for models to use (although likely will be GTCRN)
+ - [ ] Scope out datasheets for $I^{2}S$ Protocol (for each device)
+ - [ ]
 
 - - - 
 
