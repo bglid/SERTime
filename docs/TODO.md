@@ -22,7 +22,7 @@
  - [X] Get UV setup for python and workflow scripts
  - [x] Setup pre-commit hooks
  - [x] Search for models to use (although likely will be GTCRN)
- - [ ] Setup basic .sh scripts
+ - [ ] Setup basic .sh scripts/makefile
  - [ ] Scope out datasheets for $I^{2}S$ Protocol (for each device)
  - [ ] setup datasets for offline evaluation
 

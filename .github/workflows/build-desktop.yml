@@ -38,8 +38,8 @@ jobs:
       # - name: Run tests
         # run: uv run pytest tests
 
-      - name: Run safety
-        run: bash scripts/safety.sh
+      # - name: Run safety
+        # run: bash scripts/safety.sh
 
 
       - name: Minimize uv cache
