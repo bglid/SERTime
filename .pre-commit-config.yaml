@@ -11,3 +11,14 @@ repos:
     # Run the formatter.
     - id: ruff-format
       types_or: [ python, pyi ]
+
+-   repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.11.0.1
+    hooks:
+    -   id: shellcheck
+
+- repo: https://github.com/jsh9/pydoclint
+  rev: 0.7.3
+  hooks:
+    - id: pydoclint
+      args: [--style=google, --check-return-types=False]
