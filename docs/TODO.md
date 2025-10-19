@@ -11,25 +11,34 @@
 
  - [Project Setup](#project-setup)
  - [Model POC](#model-poc)
- - [Export and Quantization](#export-and-quantization)
  - [Bela Deployment](#bela)
+ - [Export and Quantization](#export-and-quantization)
  - [ESP32-S3 MCU Deployment](#esp32-s3)
 
 - - - 
 
 ### Project Setup
 
- - [ ] Get UV setup for python and workflow scripts
+ - [X] Get UV setup for python and workflow scripts
  - [ ] Setup pre-commit hooks
- - [ ] Search for models to use (although likely will be GTCRN)
+ - [x] Search for models to use (although likely will be GTCRN)
  - [ ] Scope out datasheets for $I^{2}S$ Protocol (for each device)
- - [ ]
+ - [ ] setup datasets for offline evaluation
 
 - - - 
 
 ### Model POC
 
- - [ ] ...
+ - [ ] Setup offline evaluation metrics in [/python](/python/)
+ - [ ] load .onnx files
+ - [ ] Run metrics to profile on desktop with .onnx files 
+
+- - - 
+
+### Bela 
+
+ - [ ] Design minimal inference program for bela in [src](/src/)
+ - [ ] X-compile .onnx model to run on Bela
  - [ ] ...
 
 - - - 
@@ -39,12 +48,6 @@
  - [ ] ...
  - [ ] ...
 
-- - - 
-
-### Bela 
-
- - [ ] ...
- - [ ] ...
 
 - - - 
 

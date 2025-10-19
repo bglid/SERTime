@@ -5,8 +5,8 @@
 ### Goals
  - [ ] Setup Repo and tooling
  - [ ] Choose and test pretrained model that meets time/size constraints, optional finetune if needed
- - [ ] Export and Quantize model
  - [ ] Deploy / Test on Linux RTOS (*Bela*) 
+ - [ ] Export and Quantize model
  - [ ] Deploy / Test on MCU (*ESP32-S3 Nano*)
 
 - - - 
