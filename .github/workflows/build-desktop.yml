@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: "Set up Python"
-        run: uv python install
-
       - name: Install uv
         uses: astral-sh/setup-uv@v6
+
+      - name: "Set up Python"
+        run: uv python install
 
       - name: Restore uv cache
         uses: actions/cache@v4
