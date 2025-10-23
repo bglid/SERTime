@@ -6,6 +6,11 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "bandit>=1.8.6",
+    "onnx>=1.19.1",
+    "onnxruntime>=1.20.1",
+    "pesq>=0.0.4",
+    "pystoi>=0.4.1",
     "ruff>=0.14.0",
     "safety>=3.6.2",
+    "torchmetrics>=1.8.2",
 ]

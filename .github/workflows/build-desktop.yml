@@ -26,8 +26,8 @@ jobs:
             uv-${{ runner.os }}-${{ hashFiles('uv.lock') }}
             uv-${{ runner.os }}
 
-      - name: Install the project
-        run: uv sync --locked --all-extras --dev
+      # - name: Install the project
+        # run: uv sync --locked --all-extras --dev
 
       # Ruff check
       - name: Format and Lint

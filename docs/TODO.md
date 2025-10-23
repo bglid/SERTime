@@ -19,12 +19,12 @@
 
 ### Project Setup
 
- - [X] Get UV setup for python and workflow scripts
+ - [x] Get UV setup for python and workflow scripts
  - [x] Setup pre-commit hooks
  - [x] Search for models to use (although likely will be GTCRN)
+ - [x] setup datasets for offline evaluation
  - [ ] Setup basic .sh scripts/makefile
  - [ ] Scope out datasheets for $I^{2}S$ Protocol (for each device)
- - [ ] setup datasets for offline evaluation
 
 - - - 
 
@@ -32,7 +32,7 @@
 
  - [ ] Setup offline evaluation metrics in [/python](/python/)
  - [ ] load .onnx files
- - [ ] Run metrics to profile on desktop with .onnx files 
+ - [ ] Run metrics to profile on desktop against onnxruntime inference 
 
 - - - 
 
