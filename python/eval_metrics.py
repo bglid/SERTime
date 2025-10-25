@@ -2,6 +2,7 @@ from torch import randn
 from torchmetrics.audio import (
     ShortTimeObjectiveIntelligibility,
     PerceptualEvaluationSpeechQuality,
+    ScaleInvariantSignalNoiseRatio,
 )
 
 # test
@@ -17,3 +18,8 @@ print(f"STOI Test Results: \n {res_stoi}")
 pesq = PerceptualEvaluationSpeechQuality(8000, "nb")
 res_pesq = pesq(preds, target)
 print(f"PESQ Test Results: \n {res_pesq}")
+
+# sisnr test
+sisnr = ScaleInvariantSignalNoiseRatio()
+res_sisnr = sisnr(preds, target)
+print(f"SISNR Test Results: \n {res_sisnr}")
