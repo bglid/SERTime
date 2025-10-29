@@ -5,6 +5,7 @@ description = "Evaluation and Model changes"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
+    "ai-edge-torch>=0.2.1",
     "bandit>=1.8.6",
     "onnx>=1.19.1",
     "onnxruntime>=1.20.1",
@@ -12,5 +13,7 @@ dependencies = [
     "pystoi>=0.4.1",
     "ruff>=0.14.0",
     "safety>=3.6.2",
+    "tf-nightly>=2.21.0.dev20251029",
+    "torch>=2.5.1",
     "torchmetrics>=1.8.2",
 ]
