@@ -4,10 +4,11 @@
 - - - 
 ### Goals
  - [ ] Setup Repo and tooling
- - [ ] Choose and test pretrained model that meets time/size constraints, optional finetune if needed
+ - [ ] Design and tune an adjusted DNN model based off of *GTCRN* that is supported by TFLite Micro
+ - [ ] Export and Quantize tuned DNN model
  - [ ] Deploy / Test on Linux RTOS (*Bela*) 
- - [ ] Export and Quantize model
  - [ ] Deploy / Test on MCU (*ESP32-S3 Nano*)
+ - [ ] Report performance and evaluation results
 
 - - - 
 ### *Notes*
