@@ -6,5 +6,4 @@ set -euo pipefail
 
 cd ./python
 
-# uv run eval_metrics.py
-uv run torch_converter.py
+uv run utils/eval_metrics.py
