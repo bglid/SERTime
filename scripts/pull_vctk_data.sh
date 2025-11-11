@@ -24,9 +24,9 @@ wget "$URL" -O "$TMPZIP"
 DIRECTORY="./python/data/VCTK-DEMAND"
 
 if [[ -d "$DIRECTORY" ]]; then
-	echo "DNS3 directory exists: '$DIRECTORY'"
+	echo "VCTK-DEMAND directory exists: '$DIRECTORY'"
 else
-	echo "DNS3 directory doesn't exist"
+	echo "VCTK-DEMAND directory doesn't exist"
 	echo "Creating directory: $DIRECTORY "
 	mkdir -p "$DIRECTORY"
 fi
