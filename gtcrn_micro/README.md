@@ -30,7 +30,7 @@
 |------------------|-------------|------|--------|------|------|
 | Noisy Baseline || 3.39 | 3.39 | 1.40 | 0.79 |
 | GTCRN-Micro    | - | 10.41  | 9.85    | 1.98  | 0.85  |
-| GTCRN-Micro Streaming    | - | ...  | ...    | ...  | ...  |
+| GTCRN-Micro Streaming    | - | 10.41  | 9.85| 1.98  | 0.85  |
 | GTCRN-Micro Streaming  (ONNX)  | - | ...  | ...    | ...  | ...  |
 | GTCRN-Micro Streaming (.tflite) | Dynamic | ...  | ...    | ...  | ...  |
 - - - 
